@@ -1,0 +1,85 @@
+.HelperItem{
+  font-size: 12px;
+  font-weight: 500;
+  border-right: 1px solid #808080;
+
+}
+.HelperItem:last-of-type {
+  border-right: 0;
+}
+.navHelperPc{
+  background-color: #f7f7f7;
+}
+.icon{
+  height: 12px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.navMain{
+  font-family: "Kanit";
+    padding: 1rem 0;
+    background-color: #FFD54C;
+}
+.ookkbeelogo{
+  height: 60px;
+}
+.searchInput{
+  width: 420px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #000;
+
+}
+.btnsearch{
+  border: 1px solid #000;
+  border-left: 0;
+  border-radius: 0;
+  height: 40px;
+  outline: none;
+  background-color: #ffff;
+}
+.iconsearch{
+  height: 18px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.iconsearchbg{
+  position: relative;
+  background-color: #000;
+  height: 40px;
+  width: 35px;
+}
+.manage{
+  text-decoration: none;
+  color: #ffff;
+
+}
+.bg-manage{
+  background-color: #000;
+  width: 130px;
+  height: 40px;
+  align-items: center;
+}
+.navMainPcItem{
+  display: flex;
+}
+.bg-manages{
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  align-items: center;
+  border: 1px solid #000;
+}
+.manages > .shop{
+  height: 14px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+@media (min-width: 1200px){
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+}
+}
